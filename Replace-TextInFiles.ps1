@@ -4,7 +4,7 @@ Script allows to change given text with anoter text in files under given locatio
 
 .DESCRIPTION 
 The script searches for files which contians text to be replaced under given location and then changes all occures with new text. 
-Effected files are listed in log.txt files and errors are listed in errorLog.txt.
+Effected files are listed in log.txt and errors are listed in errorLog.txt.
 
 .PARAMETER Path
 Path to destination where text in files should be changed. Script changes text recursively. Default value is '.'
